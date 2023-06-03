@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registrar Auto</title>
+    <link rel="stylesheet" href="../Styles/styles2.css">
+</head>
+
+<body>
+
+        <form action="../../Models/indexOrden.php" method="POST">
+
+
+
+                <label for="Fecha">Fecha</label>
+                <input type="date" placeholder="Fecha" name="Fecha" id="Fecha" required autofocus title="Fecha">
+                <br>
+
+                
+
+                <label for="Descripcion" style="margin-top: 25px;">Descripcion</label>
+                <textarea name="Descripcion" id="Descripcion" cols="37" rows="10" style="margin-bottom: 25px;">
+
+                
+
+        </textarea>
+
+                <br>
+
+
+                <div>
+
+                    <!--<input type="submit" class="btn" name="actualizar" id="actualizar" value="Modificar">-->
+
+
+                    <a href="modificaro.html" style="background-color:  #007bff; color: aliceblue; padding-top: 5px; 
+           padding-bottom: 5px; padding-left: 5px; padding-right: 5px; text-decoration: none;
+           margin-right: 10px;">
+                        <b>modificar</b></a>
+
+
+
+                    <input type="submit" name="enviarOrden" id="enviar" value="Enviar">
+
+
+
+                    <!--  <input type="reset" name="Borrar" id="borrar" value="Borrar"> -->
+
+
+                    <a href="borraro.html" style="background-color: red; color: aliceblue; padding-top: 5px; 
+            padding-bottom: 5px; padding-left: 5px; padding-right: 5px; text-decoration: none;">
+                        <b>Borrar</b></a>
+
+
+                    <a href="consultarOrden.php" style="background-color: rgb(255, 213, 0); color: aliceblue; padding-top: 5px; 
+            padding-bottom: 5px; padding-left: 12px; padding-right: 12px; text-decoration: none; 
+            margin-left: 10px;">
+                        <b>leer</b></a>
+
+                </div>
+
+                <div style="display:flex; justify-content: center;">
+
+                    <a href="../principal/index.html" style="background-color:  #5f0f68; color: aliceblue; padding-top: 5px; 
+             padding-bottom: 5px; padding-left: 5px; padding-right: 5px; text-decoration: none;
+             margin-right: 10px; margin-top: 25px; border-radius: 10px;">
+                        <b>Volver Al inicio</b>
+                    </a>
+                </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

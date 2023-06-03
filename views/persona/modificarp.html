@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Personas</title>
+    <link rel="stylesheet" href="../Styles/styles2.css">
+</head>
+
+<body>
+
+
+    <form action="../../Models/indexPersona.php" method="POST">
+
+
+        
+
+        <label for="Id">ID de la persona a modificar</label>
+        <input type="text" placeholder="Id" name="Id" id="Id" required autofocus title="Id">
+        <br>
+
+        <label for="Nombre">Nombre Completo</label>
+        <input type="text" placeholder="Nombre" name="Nombre" id="Nombre" required autofocus title="Nombre">
+        <br>
+        <label for="celular">Celular</label>
+        <input type="text" placeholder="Celular" name="Celular" id="Celular" required autofocus title="celular">
+        <br>
+        <label for="direccion">Direccion</label>
+        <input type="text" placeholder="Direccion" name="Direccion" id="Direccion" required autofocus title="Direccion">
+        <br>
+        <label for="estrato">Estrato</label>
+        <input type="number" placeholder="Estrato" name="Estrato" id="Estrato" required autofocus title="Estrato">
+        <br><br>
+
+        <label for="Campo">Campo</label>
+
+        <textarea name="Campo" id="Campo" cols="37" rows="10" 
+        style= "margin-bottom: 25px;" >
+
+        </textarea>
+
+        <br>
+        
+
+        <!--<input type="text" placeholder="Campo" name="Campo" id="Campo" required autofocus title="Nombre">
+        -->
+
+        
+        
+        
+
+        <div>
+
+           <input type="submit" class="btn" name="modificarPersona" id="actualizar" value="Modificar"
+           style="width: 80px;">
+
+
+
+            <a href="../principal/index.html" style="background-color:  #5f0f68; color: aliceblue; padding-top: 5px; 
+             padding-bottom: 5px; padding-left: 5px; padding-right: 5px; text-decoration: none;
+             margin-right: 10px; margin-top: 25px; border-radius: 10px;">
+            <b>Volver Al inicio</b>
+            </a>
+        
+
+        
+
+        </div>
+
+
+
+       
+
+
+       
+
+
+</body>
+
+</html>
